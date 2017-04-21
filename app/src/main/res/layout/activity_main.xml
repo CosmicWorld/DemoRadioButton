@@ -6,4 +6,40 @@
     android:layout_height="match_parent"
     tools:context="com.example.a15017381.demoradiobutton.MainActivity">
 
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="6dp">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Do" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Re" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Me" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+    </RadioGroup>
 </android.support.constraint.ConstraintLayout>
